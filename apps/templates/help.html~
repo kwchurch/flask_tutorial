@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h1>Help</h1>
+
+    This page should say something more useful than this.
+    <p>
+      Whatever you asked for is not available, but this is supported:
+
+      <ol>
+	<li><a href="api/my_json_example?a=1&b=2">Example of json output</a></li>
+	<li><a href="my_html_example?a=1&b=2">Example of html output</a></li>
+      </ol>
+  </body>
+</html>
+
+
+
+    

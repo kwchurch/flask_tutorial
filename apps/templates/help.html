@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <h1>Help</h1>
+
+    You asked for {{name}}, 
+    {% if name in supported_names %}
+    which is supported.
+    {% else %}
+    but that is not supported.
+    {% endif %}
+
+      Please try these:
+
+      <ol>
+	<li><a href="api/my_json_example?a=1&b=2">Example of json output</a></li>
+	<li><a href="my_html_example?a=1&b=2">Example of html output</a></li>
+	<li><a href="my_paper_search_with_get?query=BERT&fields=title">Example of paper_search (with get)</a></li>
+	<li><a href="my_paper_search_with_post?query=BERT&fields=title">Example of paper_search (with post)</a></li>
+      </ol>
+  </body>
+</html>

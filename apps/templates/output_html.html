@@ -1,0 +1,16 @@
+<html>
+<body>
+
+<table>
+ <tr> <th> Key </th> <th> Value </th> </tr>
+
+  {% for k in json.keys() %}
+
+  <tr><th> {{k}} </th> <td> {{json.get(k)}} </td> </tr>
+  {% endfor %}
+</table>  
+
+seconds: {{time}}
+
+</body>
+  </html>
